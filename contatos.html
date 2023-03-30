@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+<link rel="manifest" href="images/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <style>
+      .nav-item {
+    padding-inline: 40px;
+    }
+    .navbar-light .navbar-brand {
+    color: rgb(223, 86, 169);
+}
+      .dropdown-item {
+        color: rgb(223, 86, 169);
+      }
+      .mae {
+        width: 50px
+      }
+      .dia {
+        width: 500px;
+      }
+    </style> 
+    <style>
+      .dropdown-divider {
+    height: 0;
+    margin: .5rem 0;
+    overflow: hidden;
+    border-top: 4px solid rgb(223, 86, 169);
+    </style>
+        <style>
+      .nav-item {
+    padding-inline: 60px;
+    </style> 
+    <style>
+      .navbar-link {
+        color: pink;
+      }
+    </style>
+        <style>
+      .navbar-light .navbar-nav .nav-link{
+    color: rgb(223, 86, 169);
+      }
+      body {
+    font-family: Times;
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 1.5;
+    color: #212529;
+    -webkit-text-size-adjust: 100%;
+}
+    .container {
+      background-color: white;
+      display:inline-block; 
+    }
+    .list-group-item {
+    color: #ff9388;
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><img class=mae src="images/mae.png"> Dia das mães</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="sobre.html"><img class=mae src="images/cuidado.png">Sobre ser mãe</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img class=mae src="images/ajuda.png">Ajuda
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="conscientizacao.html"><i class="fas fa-baby-carriage"></i> Conscientização</a></li>
+            <li><a class="dropdown-item" href="homenageie.html"><i class="fas fa-shopping-bag"></i> Homenageie</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="contatos.html"><i class="fas fa-phone"></i> Contatos</a></li>
+          </ul>
+        </li>
+        <a class="navbar-brand pull-right"><img src="Images/2021.png" class="dia" /></a>
+    </div>
+  </div>
+</nav>
+<ul class="list-group">
+  <li class="list-group-item"><i class="fab fa-whatsapp-square"></i>Whatsapp : 9999-0000</li>
+  <li class="list-group-item"><i class="fab fa-facebook-square"></i>Facebook : *Nossa página do facebook*</li>
+  <li class="list-group-item"><i class="fab fa-instagram-square"></i>Instagram : @xxxxx</li>
+  <li class="list-group-item"><i class="fas fa-phone-square"></i>Telefone da empresa xxxx-xxxx</li>
+</ul>
+
+<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Mande sua mensagem personalizada
+</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
